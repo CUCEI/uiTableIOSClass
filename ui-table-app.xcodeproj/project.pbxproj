@@ -9,12 +9,22 @@
 /* Begin PBXBuildFile section */
 		DB9A05EE1C6C7482008C291B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9A05ED1C6C7482008C291B /* main.m */; };
 		DB9A05F11C6C7482008C291B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9A05F01C6C7482008C291B /* AppDelegate.m */; };
-		DB9A05F41C6C7482008C291B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9A05F31C6C7482008C291B /* ViewController.m */; };
 		DB9A05F71C6C7482008C291B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9A05F51C6C7482008C291B /* Main.storyboard */; };
 		DB9A05F91C6C7482008C291B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9A05F81C6C7482008C291B /* Assets.xcassets */; };
 		DB9A05FC1C6C7482008C291B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9A05FA1C6C7482008C291B /* LaunchScreen.storyboard */; };
 		DB9A06071C6C7483008C291B /* ui_table_appTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9A06061C6C7483008C291B /* ui_table_appTests.m */; };
 		DB9A06121C6C7483008C291B /* ui_table_appUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9A06111C6C7483008C291B /* ui_table_appUITests.m */; };
+		DB9A06211C6C74BC008C291B /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9A06201C6C74BC008C291B /* TableViewController.m */; };
+		DB9A06261C6C7695008C291B /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9A06251C6C7695008C291B /* TableViewCell.m */; };
+		DB9A062C1C6C7DB1008C291B /* ff.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB9A06281C6C7DB1008C291B /* ff.jpg */; };
+		DB9A062D1C6C7DB1008C291B /* mario.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB9A06291C6C7DB1008C291B /* mario.jpg */; };
+		DB9A062E1C6C7DB1008C291B /* street.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB9A062A1C6C7DB1008C291B /* street.jpg */; };
+		DB9A062F1C6C7DB1008C291B /* zelda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB9A062B1C6C7DB1008C291B /* zelda.jpg */; };
+		DB9A06321C6C7F00008C291B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB9A06311C6C7F00008C291B /* DetailViewController.m */; };
+		DB9A06371C6C89B1008C291B /* ff2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DB9A06331C6C89B1008C291B /* ff2.jpg */; };
+		DB9A06381C6C89B1008C291B /* mario2.png in Resources */ = {isa = PBXBuildFile; fileRef = DB9A06341C6C89B1008C291B /* mario2.png */; };
+		DB9A06391C6C89B1008C291B /* street2.png in Resources */ = {isa = PBXBuildFile; fileRef = DB9A06351C6C89B1008C291B /* street2.png */; };
+		DB9A063A1C6C89B1008C291B /* zelda2.png in Resources */ = {isa = PBXBuildFile; fileRef = DB9A06361C6C89B1008C291B /* zelda2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +49,6 @@
 		DB9A05ED1C6C7482008C291B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DB9A05EF1C6C7482008C291B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DB9A05F01C6C7482008C291B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DB9A05F21C6C7482008C291B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DB9A05F31C6C7482008C291B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DB9A05F61C6C7482008C291B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB9A05F81C6C7482008C291B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB9A05FB1C6C7482008C291B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +59,20 @@
 		DB9A060D1C6C7483008C291B /* ui-table-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ui-table-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9A06111C6C7483008C291B /* ui_table_appUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ui_table_appUITests.m; sourceTree = "<group>"; };
 		DB9A06131C6C7483008C291B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB9A061F1C6C74BC008C291B /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewController.h; path = ../TableViewController.h; sourceTree = "<group>"; };
+		DB9A06201C6C74BC008C291B /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewController.m; path = ../TableViewController.m; sourceTree = "<group>"; };
+		DB9A06241C6C7695008C291B /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		DB9A06251C6C7695008C291B /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		DB9A06281C6C7DB1008C291B /* ff.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ff.jpg; sourceTree = "<group>"; };
+		DB9A06291C6C7DB1008C291B /* mario.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mario.jpg; sourceTree = "<group>"; };
+		DB9A062A1C6C7DB1008C291B /* street.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = street.jpg; sourceTree = "<group>"; };
+		DB9A062B1C6C7DB1008C291B /* zelda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = zelda.jpg; sourceTree = "<group>"; };
+		DB9A06301C6C7EFF008C291B /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		DB9A06311C6C7F00008C291B /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		DB9A06331C6C89B1008C291B /* ff2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = ff2.jpg; sourceTree = "<group>"; };
+		DB9A06341C6C89B1008C291B /* mario2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mario2.png; sourceTree = "<group>"; };
+		DB9A06351C6C89B1008C291B /* street2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = street2.png; sourceTree = "<group>"; };
+		DB9A06361C6C89B1008C291B /* zelda2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zelda2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +123,14 @@
 		DB9A05EB1C6C7482008C291B /* ui-table-app */ = {
 			isa = PBXGroup;
 			children = (
+				DB9A06301C6C7EFF008C291B /* DetailViewController.h */,
+				DB9A06311C6C7F00008C291B /* DetailViewController.m */,
+				DB9A061F1C6C74BC008C291B /* TableViewController.h */,
+				DB9A06201C6C74BC008C291B /* TableViewController.m */,
+				DB9A06241C6C7695008C291B /* TableViewCell.h */,
+				DB9A06251C6C7695008C291B /* TableViewCell.m */,
 				DB9A05EF1C6C7482008C291B /* AppDelegate.h */,
 				DB9A05F01C6C7482008C291B /* AppDelegate.m */,
-				DB9A05F21C6C7482008C291B /* ViewController.h */,
-				DB9A05F31C6C7482008C291B /* ViewController.m */,
 				DB9A05F51C6C7482008C291B /* Main.storyboard */,
 				DB9A05F81C6C7482008C291B /* Assets.xcassets */,
 				DB9A05FA1C6C7482008C291B /* LaunchScreen.storyboard */,
@@ -117,6 +143,7 @@
 		DB9A05EC1C6C7482008C291B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DB9A06271C6C7DB1008C291B /* images */,
 				DB9A05ED1C6C7482008C291B /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +165,22 @@
 				DB9A06131C6C7483008C291B /* Info.plist */,
 			);
 			path = "ui-table-appUITests";
+			sourceTree = "<group>";
+		};
+		DB9A06271C6C7DB1008C291B /* images */ = {
+			isa = PBXGroup;
+			children = (
+				DB9A06331C6C89B1008C291B /* ff2.jpg */,
+				DB9A06341C6C89B1008C291B /* mario2.png */,
+				DB9A06351C6C89B1008C291B /* street2.png */,
+				DB9A06361C6C89B1008C291B /* zelda2.png */,
+				DB9A06281C6C7DB1008C291B /* ff.jpg */,
+				DB9A06291C6C7DB1008C291B /* mario.jpg */,
+				DB9A062A1C6C7DB1008C291B /* street.jpg */,
+				DB9A062B1C6C7DB1008C291B /* zelda.jpg */,
+			);
+			name = images;
+			path = "table-app";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,8 +289,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB9A062F1C6C7DB1008C291B /* zelda.jpg in Resources */,
+				DB9A06391C6C89B1008C291B /* street2.png in Resources */,
+				DB9A06381C6C89B1008C291B /* mario2.png in Resources */,
 				DB9A05FC1C6C7482008C291B /* LaunchScreen.storyboard in Resources */,
+				DB9A063A1C6C89B1008C291B /* zelda2.png in Resources */,
+				DB9A062C1C6C7DB1008C291B /* ff.jpg in Resources */,
+				DB9A062D1C6C7DB1008C291B /* mario.jpg in Resources */,
+				DB9A06371C6C89B1008C291B /* ff2.jpg in Resources */,
 				DB9A05F91C6C7482008C291B /* Assets.xcassets in Resources */,
+				DB9A062E1C6C7DB1008C291B /* street.jpg in Resources */,
 				DB9A05F71C6C7482008C291B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,8 +324,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB9A05F41C6C7482008C291B /* ViewController.m in Sources */,
+				DB9A06321C6C7F00008C291B /* DetailViewController.m in Sources */,
 				DB9A05F11C6C7482008C291B /* AppDelegate.m in Sources */,
+				DB9A06261C6C7695008C291B /* TableViewCell.m in Sources */,
+				DB9A06211C6C74BC008C291B /* TableViewController.m in Sources */,
 				DB9A05EE1C6C7482008C291B /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
